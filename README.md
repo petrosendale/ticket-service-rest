@@ -15,14 +15,17 @@ once the spring boot is running the following URI can be accessed
 (tested using postman and GET methods using chrome browser)
 
 
-Method                              URI                                               Remark
-- [ ] GET                   http://localhost:8080//webapi/ticket/           All available seats
-- [ ] GET                   http://localhost:8080//webapi/ticket/{id}      available Seats for the provide venueLevel Id(1-4)
+ All available seats
+- [ ] GET                   http://localhost:8080//webapi/ticket/ 
+- dfd
+ available Seats for the provide venueLevel Id(1-4)
+- [ ] GET                   http://localhost:8080//webapi/ticket/{id}   
+-
+hold seat for the given email address using parameters {"numSeats": "14", "customerEmail":"papa@yahoo.com"} 
 - [ ] POST                       http://localhost:8080/webapi/ticket/hold
-                            {"numSeats": "14", "customerEmail":"papa@yahoo.com"}   hold seat for the given email address
-
+   
 - [ ] POST                        http://localhost:8080/ticket-services/webapi/ticket/reserve    reserve for the customer
-                             {  "getSeatHoldId": number   "customerEmail": valid email  }
+ {  "getSeatHoldId": number   "customerEmail": valid email  }
 
   
 
