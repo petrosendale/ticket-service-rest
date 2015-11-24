@@ -2,6 +2,8 @@
 
 - [ ] The project  is written using java and jersey web services framework 
 
+
+
 - [ ] To excute the test and build the solution 
 - Goto  "ticket-service-rest" directory and run the following command 
 - mvn clean package && java -jar target/ticket-service-rest-0.0.1-SNAPSHOT.jar
@@ -25,5 +27,7 @@
 - [ ] POST   http://localhost:8080/ticket-services/webapi/ticket/reserve    
 - reserve for the customer using  {  "getSeatHoldId": number   "customerEmail": valid email  }
 
+  
+  
   
 
