@@ -20,9 +20,9 @@
 - All available seats
  
 - [ ] GET                   http://localhost:8080//webapi/ticket/{id} 
-- available Seats for the provide venueLevel Id(1-4)
+- available Seats for the provided venueLevel Id(1-4)
 
-- [ ] POST                       http://localhost:8080/webapi/ticket/hold
+- [ ] POST http://localhost:8080/webapi/ticket/hold
 - hold seat for the given email address using parameters {"numSeats": "14", "customerEmail":"papa@yahoo.com"} 
 - [ ] POST   http://localhost:8080/ticket-services/webapi/ticket/reserve    
 - reserve for the customer using  {  "getSeatHoldId": number   "customerEmail": valid email  }
